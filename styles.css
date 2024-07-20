@@ -28,7 +28,7 @@ h2 {
   font-size: 55px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -41,7 +41,7 @@ p {
 .hero {
   background: #f9f7fe;
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -59,7 +59,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -113,6 +113,11 @@ p {
   padding: 10px 0;
   font-size: 18px;
   font-weight: bold;
+}
+
+.contact {
+  font-size: 20px;
+  text-decoration: none;
 }
 
 nav {
@@ -172,7 +177,7 @@ footer .social-links a {
   color: var(--branding-color);
   background: var(--secondary-color);
   padding: 10px 14px;
-  font-size: 18px;
+  font-size: 25px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
@@ -180,6 +185,11 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+
+footer p {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 @media (max-with: 960px) {
@@ -192,12 +202,8 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .content {
